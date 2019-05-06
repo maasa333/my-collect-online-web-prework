@@ -1,5 +1,5 @@
 def my_collect(array)
-  i = 0 
+  i = 0
   list = []
     if i < array.length
       list << yield(array[1])
